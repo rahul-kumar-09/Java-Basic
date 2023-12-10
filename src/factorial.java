@@ -1,5 +1,7 @@
 import java.util.*;
 
+// Find the factorial input by user.
+
 public class factorial {
     public static void main(String[] args){
 
