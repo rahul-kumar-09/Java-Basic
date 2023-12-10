@@ -1,20 +1,18 @@
 
-// How to swap two number without using + and - operator
+// Swapping two number without using 3rd variable.
+
 public class Swapping2 {
-    public static void main(String[] args) {
-        int a = 5;
-        int b = 10;
+    public static void main(String[] args){
+        int a = 10, b = 20;
 
         //Before swapping
-        System.out.println("Before swapping: -> " + a + " " + b);
+        System.out.println("Before Swapping -> " + a + " " + b);
 
-        // Swapping logic using XOR (^) operator
-        a = a ^ b;
-        b = a ^ b;
-        a = a ^ b;
+        a = a + b; // 30 = 10 + 20
+        b = a - b; // 10 = 30 - 20
+        a = a - b; // 20 = 30 - 10
 
-        //After swapping
-        System.out.println("After swapping:  -> " + a + " " + b);
-
+        // After swapping
+        System.out.println("After Swapping  -> " + a + " " + b);
     }
 }

@@ -1,18 +1,24 @@
 
-// Swapping two number without using 3rd variable.
-
+// Swapping two number
 public class Swapping {
     public static void main(String[] args){
+        //Initialization
         int a = 10, b = 20;
 
-        //Before swapping
-        System.out.println("Before Swapping -> " + a + " " + b);
+        System.out.println("Before Swapping ");
+        System.out.println("Value of a -> " + a);
+        System.out.println("Value of b -> " + b);
 
-        a = a + b; // 30 = 10 + 20
-        b = a - b; // 10 = 30 - 20
-        a = a - b; // 20 = 30 - 10
+        //Swapping using 3rd variable
 
-        // After swapping
-        System.out.println("After Swapping  -> " + a + " " + b);
+        int c;
+        c = a;
+        a = b;
+        b = c;
+
+        System.out.println("Before Swapping ");
+        System.out.println("Value of a -> " + a);
+        System.out.println("Value of b -> " + b);
+
     }
 }
