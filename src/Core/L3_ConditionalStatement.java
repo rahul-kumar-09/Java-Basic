@@ -25,6 +25,7 @@ public class L3_ConditionalStatement {
             System.out.println("Odd");
         }*/
 
+/*
         System.out.println("Enter any three number. ");
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
@@ -37,6 +38,26 @@ public class L3_ConditionalStatement {
         } else {
             System.out.println(n3 + " is Greater");
         }
+*/
+
+        System.out.println("Please Enter 1, 2 or 3");
+        int button = sc.nextInt();
+
+        switch (button){
+            case 1: System.out.println("1st Line");
+            break;
+
+            case 2: System.out.println("2nd Line");
+            break;
+
+            case 3: System.out.println("3rd Line");
+            break;
+
+            default: System.out.println("Invalid Button");
+
+        }
+
+
 
 
     }
