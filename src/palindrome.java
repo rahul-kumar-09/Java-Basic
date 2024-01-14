@@ -18,7 +18,7 @@ public class palindrome {
 
 
     public static void main(String[] args) {
-        int num = 123281;
+        int num = 123321;
 
         if (isPalindrome(num)) {
             System.out.println(num + " is a palindrome.");
