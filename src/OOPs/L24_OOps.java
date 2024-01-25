@@ -1,33 +1,36 @@
 package OOPs;
 
 
-class Pen{
+class Pen {
     String color;
     String type;
 
-    public void write(){
+    public void write() {
         System.out.println("Write Something");
     }
-    public void printColor(){
+
+    public void printColor() {
         System.out.println(this.color);
     }
 }
-class Student{
+
+class Student {
     String name;
     int age;
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.println(this.name);
         System.out.println(this.age);
     }
-    Student(String name, int age){
+
+    Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
 }
 
 public class L24_OOps {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 /*
         Pen pen1 = new Pen();
         pen1.color = "red";
