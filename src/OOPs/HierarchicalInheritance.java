@@ -23,7 +23,7 @@ class derivedClass2 extends baseClass{
 
 
 }
-public class HierarchialInheritance {
+public class HierarchicalInheritance {
     public static void main(String[] args){
         derivedClass2 ob = new derivedClass2();
         ob.num();
